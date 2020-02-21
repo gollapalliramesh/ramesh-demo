@@ -1,0 +1,169 @@
+html,
+body,
+.container {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.head {
+    background-color: #ffffff;
+    flex: 10;
+    display: flex;
+    flex-direction: row;
+}
+
+.head1 {
+    flex: 40%;
+}
+
+.head2 {
+    flex: 20%;
+    margin-top: 20px;
+}
+
+.head3 {
+    flex: 20%;
+    margin-top: 20px;
+}
+
+.head4 {
+    flex: 20%;
+}
+
+.head1-4 {
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+
+/* Ends the head part */
+
+.header {
+    flex: 10;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+}
+
+.home,
+.about,
+.dropdown,
+.gallery,
+.pages,
+.contact,
+.search-bar {
+    flex: 15;
+    margin-top: 15px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/* 
+.about {
+    flex: 15;
+}
+
+.dropdown {
+    flex: 15;
+}
+
+.gallery {
+    flex: 15;
+} */
+
+.section {
+    flex: 60%;
+    background-color: chocolate;
+    flex-direction: row;
+    display: flex;
+}
+
+.back {
+    flex: 1;
+    /* padding-right: ; */
+}
+
+.world {
+    position: absolute;
+    right: 15%;
+    top: 25%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.our {
+    position: absolute;
+    right: 12%;
+    top: 30%;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.lorem {
+    position: absolute;
+    right: 25px;
+    top: 40%;
+    font-size: 25px;
+}
+
+.type {
+    position: absolute;
+    right: 30%;
+    top: 50%;
+    font-size: 25px;
+}
+
+.know {
+    position: absolute;
+    right: 25%;
+    top: 60%;
+    color: #ffffff;
+    background-color: orange;
+    border-collapse: collapse;
+    padding: 10PX;
+}
+
+.footer {
+    flex: 20;
+    display: flex;
+    flex-direction: row;
+    background-color: cornsilk;
+}
+
+.apply {
+    position: relative;
+    top: -10%;
+    left: 5%;
+    height: 120px;
+    width: 250px;
+    background-color: orangered;
+}
+
+.download {
+    position: relative;
+    top: -10%;
+    left: 5%;
+    height: 120px;
+    width: 250px;
+    background-color: blue;
+}
+
+.certifi {
+    position: relative;
+    top: -10%;
+    left: 5%;
+    height: 120px;
+    width: 250px;
+    background-color: yellow;
+}
